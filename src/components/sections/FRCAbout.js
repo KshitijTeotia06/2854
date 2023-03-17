@@ -50,8 +50,8 @@ const FRCAbout = ({
   );
 
   const sectionHeader = {
-    title: 'About Us',
-    paragraph: 'Learn more about the team and tutors behind our organization.'  
+    title: 'MEET THE TEAM',
+    paragraph: 'Learn more about the hands and minds behind our robot.'  
   };
 
   return (
@@ -66,14 +66,14 @@ const FRCAbout = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Captain
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                  Captain
                   </div>
                 <h3 className="mt-0 mb-12">
                   Siddhi Jain
                   </h3>
                 <p className="m-0">
-                  Co-President of EVHS Robotics
+                  Siddhi, a senior, has been in robotics for four years. She enjoys going to the gym and listening to music.
                   </p>
               </div>
               <div className={
@@ -91,14 +91,14 @@ const FRCAbout = ({
             </div>
 <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Captain
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                  CO-PRESIDENT
                   </div>
                 <h3 className="mt-0 mb-12">
                   Tiffany Dang
                   </h3>
                 <p className="m-0">
-                  President of EVHS Robotics & Founder of FTC Artemis.
+                  President of EVHS Robotics & Co-captain of FTC Artemis.
                   </p>
               </div>
               <div className={
@@ -116,14 +116,14 @@ const FRCAbout = ({
             </div>
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Captain/Co-Programming Lead
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                  Programming Lead
                   </div>
                 <h3 className="mt-0 mb-12">
                   Vishal Singh
                   </h3>
                 <p className="m-0">
-                  President of EVHS Robotics & Founder of FTC Artemis.
+                 Vishal is a senior that has been a part of robotics for four years. He can run a sub-five minute mile. 
                   </p>
               </div>
               <div className={
@@ -141,14 +141,14 @@ const FRCAbout = ({
             </div>
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co - Programming Lead
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                  Programming Lead
                 </div>
                 <h3 className="mt-0 mb-12">
                   Kshitij Teotia
                 </h3>
                 <p className="m-0">
-                Co-founder and Algebra 2 instructor, Aniket is an 11th grader at Silver Creek High School. He has 2 years of Java coding experience as well as a year of teaching Scratch programming language to kids. He also has more experience in his high school Computer Science club in which he volunteered teaching Java and also participated in a hack-a-thon this past year. He has participated in many math competitions in middle school. He likes to play video games with his friends, go biking, play the clarinet, and loves to play tennis.
+                Kshitij, a junior, has been a part of robotics for four years. His favorite place to go is Santa Cruz. 
                   </p>
               </div>
               <div className={
@@ -167,14 +167,14 @@ const FRCAbout = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                Co - Programming Lead
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                Programming Lead
                   </div>
                 <h3 className="mt-0 mb-12">
                     Krish Iyengar
                   </h3>
                 <p className="m-0">
-                Co-founder and former English teacher, Sanjith is an 11th grader at Evergreen Valley High School. He has a year of experience as a volunteer teaching math to 6th grade students and over 100 volunteer hours in 2020. He has participated in several math and English competitions throughout middle school and has a passion for both subjects. He likes to go biking, play video games with friends, and play basketball.
+                Krish, a junior, has been a part of robotics for two years. He enjoys running.
                   </p>
               </div>
               <div className={
@@ -220,14 +220,14 @@ const FRCAbout = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
                 Mechanical Lead
                   </div>
                 <h3 className="mt-0 mb-12">
                   Mihir Garg
                   </h3>
                 <p className="m-0">
-                    Head of Software Devolpment and Creator of Website, Kshitij Teotia is a 11th grader at Evergreen Valley High School. He is experienced in various computer science topics and mathematical concepts. He is an AIME qualifier and is experienced in math olympiad related topics. He designs websites for many non-profits and is fluent in full-stack webdesign. 
+                    Mihir, a junior, has been on robotics for two years. He likes to bike, run, and be outdoors.
                   </p>
               </div>
               <div className={
@@ -245,14 +245,14 @@ const FRCAbout = ({
             </div>
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
                 Mechanical Lead
                   </div>
                 <h3 className="mt-0 mb-12">
                   Priyanka Karunakaran
                   </h3>
                 <p className="m-0">
-                   Priyanka is a junior at Evergreen Valley High School and co-founder of FTC Artemis</p>
+                   Priyanka, a junior, has been in robotics for two years.</p>
               </div>
               <div className={
                 classNames(

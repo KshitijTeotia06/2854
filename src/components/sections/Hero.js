@@ -69,7 +69,7 @@ const Hero = ({
             </h1>
             <div className="container-m">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              EVHS Robotics is located in San Jose, CA and is dedicated to inspiring students in their high school to discover and foster their passion for STEM through practical and hands on experience by competing in FIRST Robotics.
+              Eotics is located in San Jose, CA and is dedicated to inspiring students in their high school to discover and foster their passion for STEM through practical and hands on experience by competing in FIRST Robotics.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

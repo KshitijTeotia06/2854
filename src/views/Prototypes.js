@@ -18,7 +18,7 @@ const Prototypes = () => {
   return (
     <>
     {console.log(tileInput)}
-      <HeroSubteam featureHeader = {tileInput} teamName="The Protoypes" className="illustration-section-01" />
+      <HeroSubteam featureHeader = {tileInput} teamName="The Prototypes" className="illustration-section-01" />
       <section className="text-gray-600 body-font">
               <div className="container px-5 py-10 mx-auto mt-5" style = {{display: 'flex',
     alignItems: 'center',
@@ -81,10 +81,11 @@ const Prototypes = () => {
         {/* <h1>
           Autonomous
         </h1> */}
-                <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/u20f3Vbwvio"} header={"Autonomous"} description={'We have an autonomous routine that drops a cube that was loaded on into the top box, and then moves to the ramp. When the robot is on the ramp, we slowly creep up the ramp and auto align.'}/>
+                <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/u20f3Vbwvio"} header={"AUTONOMOUS"} description={'Our autonomous routine drops a preloaded cube onto the high level 6 POINTS We then traverse to the charge station where we DOCK and ENGAGE - 12 POINTS TOTAL - 18 POINTS'} /> 
+                {/* <p>{"6 POINTS We then traverse to the charge station where we DOCK and ENGAGE - 12 POINTS"}</p> */}
 
-        <Auto topDivider={true} useVideo={false} header={"Teleoperated"} description={'Our game strategy for telop is to focus a lot on picking up cubes and depositing them as fast as possible. In addition, we will focus on the human player substation to get a lot of the game elements too.'}/>
-        <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/ayUBQiOhlPs"} header={"End Game"} description={'Our end game strategy is to make sure we have enough time to balance on the ramp, as that is one of the major sources of points. We have developed an auto-align ramp feature that we will be using where it uses a PID to creep up a ramp and balance.'}/>
+        <Auto topDivider={true} useVideo={false} header={"TELEOPERATED"} description={'We can adeptly pick up both cones and cubes from the human substation as well as the ground (including knocked over cones!). We average 5-8 game pieces per 20 second cycle.'}/>
+        <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/ayUBQiOhlPs"} header={"ENDGAME"} description={'Our endgame autobalance has a 100% success rate on every ramp we have tested on. Driver involvement not required :)'}/>
       </section>
       <FRCAbout invertMobile topDivider imageFill className="illustration-section-02" />
       {/* <Testimonial topDivider /> */}

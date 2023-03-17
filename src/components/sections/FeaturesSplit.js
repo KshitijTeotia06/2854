@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'About Us',
-    paragraph: 'Learn more about the team and tutors behind our organization.'  
+    title: 'MEET THE TEAM',
+    paragraph: 'The hands and minds behind our robot.'  
   };
 
   return (
