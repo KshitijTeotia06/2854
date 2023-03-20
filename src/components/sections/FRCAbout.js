@@ -268,6 +268,31 @@ const FRCAbout = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxl text-color-primary fw-600 tt-u mb-8">
+                Electrical Lead
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Karun Pai
+                  </h3>
+                <p className="m-0">
+                   Karun Pai, a junior, has been in robotics for two years.</p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/karun.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
             {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
