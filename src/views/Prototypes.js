@@ -77,18 +77,16 @@ const Prototypes = () => {
       </div>
 
        {/* <FeaturesTiles /> */}
-      <section>
+      <section >
         {/* <h1>
           Autonomous
         </h1> */}
-                <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/u20f3Vbwvio"} header={"AUTONOMOUS"} description={'Our autonomous routine drops a preloaded cube onto the high level 6 POINTS We then traverse to the charge station where we DOCK and ENGAGE - 18 POINTS TOTAL'} /> 
+                <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/u20f3Vbwvio"} header={"AUTONOMOUS"} description={'Our autonomous routine shoots the preloaded note in the shooter and then backs up to get other notes around. We have a 2 note, 3 note, and 4 note autos that work consistently.'} /> 
                 {/* <p>{"6 POINTS We then traverse to the charge station where we DOCK and ENGAGE - 12 POINTS"}</p> */}
 
-        <Auto topDivider={true} useVideo={false} header={"TELEOPERATED"} description={'We can adeptly pick up both cones and cubes from the human substation as well as the ground (including knocked over cones!). We average 5-8 game pieces per 20 second cycle.'}/>
-        <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/ayUBQiOhlPs"} header={"ENDGAME"} description={'Our endgame autobalance has a 100% success rate on every ramp we have tested on. Driver involvement not required :)'}/>
+        <Auto topDivider={true} useVideo={true} header={"TELEOPERATED"} isTeleop={true} description={'Our robot is equipped with the capability to collect notes from both the ground and the source. Utilizing a swerve drive and a custom-build neural network, it can precisely aim and shoot while in motion by continuously calculating the optimal arm angle and flywheel speed.'}/>
+        {/* <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/ayUBQiOhlPs"} header={"ENDGAME"} description={'Our endgame autobalance has a 100% success rate on every ramp we have tested on. Driver involvement not required :)'}/> */}
       </section>
-      <FRCAbout invertMobile topDivider imageFill className="illustration-section-02" />
-      {/* <Testimonial topDivider /> */}
       <Cta split />
       <Contact />
     </>

@@ -22,6 +22,7 @@ const Auto = ({
     description,
     useVideo,
     videoURL,
+    isTeleop,
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -83,39 +84,86 @@ const Auto = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" id = "about"/>
-    {useVideo ? (    
-        
-        // <Modal
-        //         id="video-modal"
-        //         show={videoModalActive}
-        //         handleClose={closeModal}
-        //         video="https://youtu.be/u20f3Vbwvio"
-        //         videoTag="iframe" />   
+    { useVideo ? (
+    isTeleop ? (
+      <div className="video-responsive center-content">
+             <iframe src="https://www.youtube.com/embed/ort86M_-fX4" style={{ width: '570px', height: '600px', borderRadius: "10px" }} title="Frame 1"></iframe>
 
-        <div className="video-responsive center-content">
-            <iframe
-            style={{borderRadius: "15px"}}
-            width="853"
-            height="480"
-            src={videoURL}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Embedded youtube"
-            />
-        </div>
+  </div>
+    ) : (
+<div> 
+         <h3>2 Note Autos</h3>
+
+         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', columnGap: '15px', paddingLeft: '5px', paddingRight: '5px' }}>
+
+      <div style={{ padding: '10px' }}>
+        <iframe src="https://www.youtube.com/embed/uKLsXTzA5Zs" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
+        <h6>BackUp Left</h6>
+      </div>
+      <div style={{ padding: '10px' }}>
+        <iframe src="https://www.youtube.com/embed/XKpn1jaauG8" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
+        <h6>BackUp Middle</h6>
+      </div>
+      <div style={{ padding: '10px' }}>
+        <iframe src="https://www.youtube.com/embed/oP26rzdX6n0" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 3"></iframe>
+        <h6>BackUp Right</h6>
+      </div>
+
+    </div>
+
+    <h3>3 Note Autos</h3>
+
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', columnGap: '15px', paddingLeft: '5px', paddingRight: '5px' }}>
+  <div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/RiiXzz2qQok" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 3"></iframe>
+  <h6>BackUp Left Center</h6>
+</div>
+<div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/UT3lGaqkBn4" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
+  <h6>Middle Left</h6>
+</div>
+
+<div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/1a5OCOUBnFA" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 3"></iframe>
+  <h6>Right Center</h6>
+</div>
+
+<div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/0UjNZhAaqus" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
+  <h6>BackUp Right Center</h6>
+</div>
+
+</div>
+<h3>4 Note Autos</h3>
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', columnGap: '15px', paddingLeft: '5px', paddingRight: '5px' }}>
+<div style={{ padding: '10px' }}>
+<iframe src="https://www.youtube.com/embed/ZQSOnCxKg7w" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
+<h6>BackUp Left</h6>
+</div>
+<div style={{ padding: '10px' }}>
+<iframe src="https://www.youtube.com/embed/uIzeo10054k" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
+<h6>BackUp Right</h6>
+</div>
+
+</div>
+
+</div>
+
+
 
         // <video width="750" height="500" controls >
         //     <source src={video} type="video/mov"/>
         // </video>
                 
-            
-            ) : (
-            <div className="center-content" > 
-                <img width={"450"} style={{borderRadius: "15px"}} src={require('./roboPic.jpg')} />
-            </div>
-            
-            )}
+        )
+        ) : (
+          <div className="center-content"> 
+            {/* Ensure you have `roboPic.jpg` in your project directory or adjust the path accordingly */}
+            <img width={"450"} style={{borderRadius: "15px"}} src={require('./roboPic.jpg')} alt="RoboPic" />
+          </div>
+        )
+      }
           
         </div>
       </div>
