@@ -85,7 +85,7 @@ const Prototypes = () => {
                 {/* <p>{"6 POINTS We then traverse to the charge station where we DOCK and ENGAGE - 12 POINTS"}</p> */}
 
                 <Auto topDivider={true} useVideo={true} header={"TELEOPERATED"} isTeleop={true} description={'Our robot is equipped with the capability to collect notes from both the ground and the source. Utilizing a swerve drive and a custom-build neural network, it can precisely aim and shoot while in motion by continuously calculating the optimal arm angle and flywheel speed.'}/>
-                <Auto topDivider={true} useVideo={true} header={"ENDGAME"} isTeleop={true} description={'Our endgame strategy is to be able to climb onto the stage with our polycarb climbers. We utilize our arm system to pull the robot up onto the chains.'}/>
+                <Auto topDivider={true} useVideo={true} header={"ENDGAME"} isTeleop={false} isEndgame={true} description={'Our endgame strategy is to be able to climb onto the stage with our polycarb climbers. We utilize our arm system to pull the robot up onto the chains.'}/>
         {/* <Auto topDivider={true} useVideo={true} videoURL={"https://www.youtube.com/embed/ayUBQiOhlPs"} header={"ENDGAME"} description={'Our endgame autobalance has a 100% success rate on every ramp we have tested on. Driver involvement not required :)'}/> */}
       
       
