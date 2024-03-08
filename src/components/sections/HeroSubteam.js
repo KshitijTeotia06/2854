@@ -72,7 +72,7 @@ const HeroSubteam = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://forms.gle/qvDocZdmjvtJm73w9">
+                  <Button tag="a" color="primary" wideMobile href="">
                     Contact Us
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="/#about">
