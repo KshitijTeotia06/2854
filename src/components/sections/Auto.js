@@ -23,6 +23,7 @@ const Auto = ({
     useVideo,
     videoURL,
     isTeleop,
+    isEndgame,
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -90,6 +91,11 @@ const Auto = ({
              <iframe src="https://www.youtube.com/embed/ort86M_-fX4" style={{ width: '570px', height: '600px', borderRadius: "10px" }} title="Frame 1"></iframe>
 
   </div>
+    ) : (isEndgame ? (
+      <div className="video-responsive center-content">
+             <iframe src="https://www.youtube.com/embed/-33osmrYIEk" style={{ width: '570px', height: '600px', borderRadius: "10px" }} title="Frame 1"></iframe>
+
+  </div>
     ) : (
 <div> 
          <h3>2 Note Autos</h3>
@@ -134,20 +140,30 @@ const Auto = ({
 </div>
 
 </div>
-<h3>4 Note Autos</h3>
+  <h3>4 Note Autos</h3>
+
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', columnGap: '15px', paddingLeft: '5px', paddingRight: '5px' }}>
+    <div style={{ padding: '10px' }}>
+    <iframe src="https://www.youtube.com/embed/ZQSOnCxKg7w" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
+    <h6>BackUp Left</h6>
+    </div>
+    <div style={{ padding: '10px' }}>
+    <iframe src="https://www.youtube.com/embed/uIzeo10054k" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
+    <h6>BackUp Right</h6>
+    </div>
+  </div>
+  <h3>5 Note Autos</h3>
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', columnGap: '15px', paddingLeft: '5px', paddingRight: '5px' }}>
-<div style={{ padding: '10px' }}>
-<iframe src="https://www.youtube.com/embed/ZQSOnCxKg7w" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
-<h6>BackUp Left</h6>
+  <div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/arH6s-kDfsY" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 2"></iframe>
+  <h6>BackUp Left</h6>
+  </div>
+  <div style={{ padding: '10px' }}>
+  <iframe src="https://www.youtube.com/embed/DRb6awDRoVQ" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
+  <h6>BackUp Right</h6>
+  </div>
 </div>
-<div style={{ padding: '10px' }}>
-<iframe src="https://www.youtube.com/embed/uIzeo10054k" style={{ width: '100%', height: '300px', borderRadius: "10px" }} title="Frame 1"></iframe>
-<h6>BackUp Right</h6>
-</div>
-
-</div>
-
 </div>
 
 
@@ -156,7 +172,7 @@ const Auto = ({
         //     <source src={video} type="video/mov"/>
         // </video>
                 
-        )
+        ))
         ) : (
           <div className="center-content"> 
             {/* Ensure you have `roboPic.jpg` in your project directory or adjust the path accordingly */}
